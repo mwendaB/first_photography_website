@@ -1,20 +1,22 @@
-*{
+boday{
+    margin: 0px;
+    padding: 0px;
     background-color: lavender;
 }
 .mango{
-     width: 100px;
-     border-radius: 10px;
-     float: left;
-     margin-right: 20px;
+     width: 200px;
+     border-radius: 5px;
+     
+     
  }
  .thing{
-     color: silver;
+     color: olivedrab;
  }
   .orange{
-     width: 100px;
+     width: 300px;
      border-radius: 10px;
      float: right;
-     margin-left: 80px;
+     margin-left: 200px;
  }
  ul{
      display: inline-block;
@@ -44,6 +46,6 @@
         background-color: #eee;
         overflow: visible;
     }
-    .image{
-        width: 100px;
-    }
+  .sample{
+      font-size: 19px;
+  }
