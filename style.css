@@ -1,19 +1,69 @@
 *{
-    background-color: #379683;
-    padding: 0px;
+    background-color: gray:
+     padding: 0px;
     margin: 0px;
     webkit-box-sizing: border-box;
     }
-body{
+html,body{
     font-family: cursive;
     font-size: 14px;
     font-weight: normal;
     height: 100%;
-    background-color:khaki;
+    background-attachment: fixed;
+    background-color: grey;
     
 }
 .header{
     padding: 15px  35px;
     display: inline-block;
     width: 100%;
+}
+.log{
+    float: left;
+   
+}
+.img{
+    max-width: 100px;
+    
+}
+.menu{
+    float: right;
+}
+.menu ul li{
+    display: inline-block;
+    float: left;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 5px 20px;
+}
+.name{
+    width: 300px;
+    margin-top: 200px;
+    }
+.name h1{
+        color: rgb(201, 187, 68);
+    font-size: 90px;
+    line-height: 60px;
+  text-align: right;
+  letter-spacing: 5px;
+}
+.name h5{
+    color: rgb(134, 97, 110);
+    font-size: 25px;
+    letter-spacing: 6px;
+}
+.menu ul li a:hover{
+    color: hotpink;
+
+}
+.feature{
+    height: 90%;
+    position: absolute;
+    
+    bottom: 0;
 }
