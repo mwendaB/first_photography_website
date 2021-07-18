@@ -16,16 +16,13 @@ html,body{
 .header{
     padding: 15px  35px;
     display: inline-block;
-    width: 100%;
-}
-.log{
-    float: left;
-   
-}
+    width: 100%;}
 .img{
-    max-width: 100px;
-    
+    width: 400px;
+    border-radius: 200px;
+    float: left;
 }
+
 .menu{
     float: right;
 }
@@ -52,8 +49,8 @@ html,body{
   text-align: right;
   letter-spacing: 5px;
 }
-.name h5{
-    color: rgb(134, 97, 110);
+.name h3{
+    color: rgb(211, 205, 207);
     font-size: 25px;
     letter-spacing: 6px;
 }
@@ -78,4 +75,14 @@ html,body{
 }
 .social a:hover{
     color: black;
+}
+.about-photo{
+    float: right;
+    width: 200px;
+
+}
+.about{
+    color: rgb(34, 33, 27);
+    font-size: 30px;
+    font-weight: bold;
 }
