@@ -28,9 +28,8 @@ html,body{
 }
 .menu ul li{
     display: inline-block;
-    float: left;
-    line-height: 25px;
-    margin-top: 15px;
+     line-height: 25px;
+
 }
 .menu ul li a{
     text-decoration: none;
